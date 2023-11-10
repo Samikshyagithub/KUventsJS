@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.home__container .home__img {
+.home__img {
     position: relative;
     width: 100%;
     display: flex;
@@ -12,12 +12,12 @@
     overflow: hidden;
 }
 
-.home__container .home__img img {
+.home__img img {
     width: 100%;
     object-fit: fill;
 }
 
-.home__container .home__img h1 {
+.home__img h1 {
     position: absolute;
     padding: 4% 0;
     font-style: normal;
@@ -31,7 +31,7 @@
     color: #ffffff;
 }
 
-.home__container .home__img .home__img-controls {
+.home__img-controls {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -41,7 +41,7 @@
     padding: 20% 4%;
 }
 
-.home__container .home__img .home__img-controls .home__img-control {
+.home__img-control {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 
-.home__container .home__img .home__img-controls .home__img-control img {
+.home__img-control img {
     width: 32px;
     height: 32px;
 }

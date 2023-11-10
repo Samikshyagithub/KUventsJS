@@ -29,6 +29,7 @@
     gap: 3rem;
 }
 
+
 .about .about__creator .about__creator__info {
     display: flex;
     flex-direction: column;
@@ -51,6 +52,8 @@
     align-items: center;
     gap: 1rem;
 }
+
+
 
 @media screen and (max-width: 768px) {
     .about .about__heading {
