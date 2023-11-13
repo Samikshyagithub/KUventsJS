@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2% 4%;
-    gap: 2rem;
+    padding: 2% 2%;
+    gap: 1rem;
 }
 
 .about .about__heading {
@@ -27,8 +27,28 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+.about .about__creator .container {
+  width: 2000px; /* Set the width of your container */
+  height: 400px; /* Set the height of your container */
+  overflow: hidden; /* Hide any overflow content */
+  gap: 3rem;
+  /* You can also set additional styles for the container */
+  border: 1px solid #ccc;
+  position: relative; /* If you need to position child elements */
 }
 
+.about .about__creator.container img {
+  max-width: 100%; /* Limit the image width to the container width */
+  max-height: 100%; /* Limit the image height to the container height */
+  display: flex; /* Remove any extra spacing below the image */
+  object-fit: contain;
+  object-position: center center;
+  align-items: center;
+ justify-content: center;
+}
 
 .about .about__creator .about__creator__info {
     display: flex;

@@ -36,7 +36,9 @@ const About = () => {
         </span>
       </h1>
       <div className="about__creator">
-        <img src={images.myself} alt="creator" />
+        <div className="container">
+      <img src={images.felix} alt="creator" />
+    </div>
         <div className="about__creator__info">
           <h1 className="about__creator__info__name">
             <span
