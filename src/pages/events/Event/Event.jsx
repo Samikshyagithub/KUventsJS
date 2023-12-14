@@ -211,6 +211,36 @@ const Event = () => {
               </p>
             </div>
           </div>
+          
+<div
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "start",
+    justifyContent: "center",
+    gap: "1.5rem",
+    backgroundColor: "#7848f4", // Add the background color
+    padding: "20px", // Add padding
+    borderRadius: "10px", // Add border-radius
+    textAlign: "center", // Add text-align
+  }}
+>
+  <h2
+    style={{
+      color: "white", // Set text color
+      marginTop: "0", // Remove default margin
+    }}
+  >
+    List of Participants
+  </h2>
+  {/* Add your participant list here */}
+</div>
+
+
+
+
+
+
           <div
             style={{
               display: "flex",
