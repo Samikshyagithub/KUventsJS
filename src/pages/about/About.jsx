@@ -67,36 +67,30 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={images.linkedin} alt="event-hive" />
+              <img src={images.linkedin} alt="kuvents" />
             </a>
             <a
               href="https://twitter.com/felix.hud"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={images.twitter} alt="event-hive" />
+              <img src={images.twitter} alt="kuvents" />
             </a>
         
             <a
-              href="https://www.figma.com/@prashantkumarr"
+              href="https://medium.com/@roshansahani7"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={images.figma} alt="event-hive" />
-            </a>
-            <a
-              href="https://medium.com/@officialprashanttt"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={images.medium} alt="event-hive" />
+              
+              <img src={images.medium} alt="kuvents" />
             </a>
             <a
               href="https://github.com/felixop7"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={images.github} alt="event-hive" />
+              <img src={images.github} alt="kuvents" />
             </a>
             </div>
         </div>
@@ -118,49 +112,34 @@ const About = () => {
             Upadhyay
           </h1>
           <p className="about__creator__info__content">
-            Greetings from Samikshya Upadhyay, the creator of this website! I
-            extend a warm welcome to all our visitors and users. It brings me
-            joy to see you here, and I hope you have a wonderful experience
-            exploring our platform. As the creator, I am dedicated to providing
-            you with the best possible service. If you have any questions,
-            suggestions, or feedback, please don't hesitate to reach out. Your
-            input is valuable to me, and I am committed to continuously
-            improving the website to meet your needs. Thank you for choosing our
-            platform. Enjoy your time here! <br />
-            <br /> Best regards, <br /> Roshan Sahani
+            
+         I'm Samikshya Upadhyay, the frontend developer of this website. Passionate about crafting seamless user interfaces, I've created an engaging platform. Recognizing the need for a centralized hub at KU, this website efficiently communicates diverse events. Excited to contribute to community engagement through thoughtful design. Proud to enhance accessibility and information sharing. <br />
+            <br /> Best regards, <br /> Samikshya Upadhyay
           </p>
           <div className="about__creator__info__links">
             <a
-              href="https://www.linkedin.com/in/felix.hud/"
+              href="https://www.linkedin.com/in/samikshyaupadhyay/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={images.linkedin} alt="event-hive" />
+              <img src={images.linkedin} alt="kuvents" />
             </a>
             <a
-              href="https://twitter.com/felix.hud"
+              href="https://twitter.com/_thesapphire_/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={images.twitter} alt="event-hive" />
             </a>
-        
             <a
-              href="https://www.figma.com/@prashantkumarr"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={images.figma} alt="event-hive" />
-            </a>
-            <a
-              href="https://medium.com/@officialprashanttt"
+              href="https://medium.com/@su58071320"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={images.medium} alt="event-hive" />
             </a>
             <a
-              href="https://github.com/felixop7"
+              href="https://github.com/Samikshyagithub"
               target="_blank"
               rel="noopener noreferrer"
             >
