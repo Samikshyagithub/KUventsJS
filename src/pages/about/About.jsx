@@ -113,7 +113,7 @@ const About = () => {
           </h1>
           <p className="about__creator__info__content">
             
-         I'm Samikshya Upadhyay, the frontend developer of this website. Passionate about crafting seamless user interfaces, I've created an engaging platform. Recognizing the need for a centralized hub at KU, this website efficiently communicates diverse events. Excited to contribute to community engagement through thoughtful design. Proud to enhance accessibility and information sharing. <br />
+         Hey It's me Samikshya Upadhyay, the frontend developer of this website. Passionate about crafting seamless user interfaces, I've created an engaging platform. Recognizing the need for a centralized hub at KU, this website efficiently communicates diverse events. Excited to contribute to community engagement through thoughtful design. Proud to enhance accessibility and information sharing. <br />
             <br /> Best regards, <br /> Samikshya Upadhyay
           </p>
           <div className="about__creator__info__links">
@@ -165,49 +165,14 @@ const About = () => {
             Pokhrel
           </h1>
           <p className="about__creator__info__content">
-            Greetings from Yural Pokhrel, the creator of this website! I
-            extend a warm welcome to all our visitors and users. It brings me
-            joy to see you here, and I hope you have a wonderful experience
-            exploring our platform. As the creator, I am dedicated to providing
-            you with the best possible service. If you have any questions,
-            suggestions, or feedback, please don't hesitate to reach out. Your
-            input is valuable to me, and I am committed to continuously
-            improving the website to meet your needs. Thank you for choosing our
-            platform. Enjoy your time here! <br />
-            <br /> Best regards, <br /> Roshan Sahani
+           Hello, I'm Yural Pokhrel, the brains behind the backend development of this platform. My enthusiasm for creating engaging and efficient websites led me to craft a robust foundation for seamless data flow and optimal functionality. I take pride in contributing to a platform that enhances the overall experience for students, simplifying event management and fostering a dynamic online community. Excited to see this project come to life! <br />
+            <br /> Best regards, <br /> Yural Pokhrel
           </p>
           <div className="about__creator__info__links">
-            <a
-              href="https://www.linkedin.com/in/felix.hud/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={images.linkedin} alt="event-hive" />
-            </a>
-            <a
-              href="https://twitter.com/felix.hud"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={images.twitter} alt="event-hive" />
-            </a>
+          
         
             <a
-              href="https://www.figma.com/@prashantkumarr"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={images.figma} alt="event-hive" />
-            </a>
-            <a
-              href="https://medium.com/@officialprashanttt"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={images.medium} alt="event-hive" />
-            </a>
-            <a
-              href="https://github.com/felixop7"
+              href="https://github.com/Tofu0mega?fbclid=IwAR31nq-dAklgfDDV8VHrtKbjw3gogmwA_iC0n0K5wfHhk__gnzlOxtzs90k"
               target="_blank"
               rel="noopener noreferrer"
             >

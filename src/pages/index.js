@@ -4,6 +4,7 @@ import Signup from "./auth/Signup/Signup";
 import Home from "./home/Home/Home";
 import Contact from "./contact/Contact";
 import About from "./about/About";
+import FAQs from "./faqs/faqs";
 
 import CreateEvent from "./events/CreateEvent/CreateEvent";
 import Event from "./events/Event/Event";
@@ -22,22 +23,23 @@ import Tasks from "./dashboard/Tasks";
 import Error from "./error/Error";
 
 export {
-    Signin,
-    Signup,
-    Home,
-    Contact,
-    About,
-    CreateEvent,
-    UserProfile,
-    Event,
-    Events,
-    Colleges,
-    College,
-    Layout,
-    UserMessages,
-    UserEvents,
-    User,
-    Scheduler,
-    Error,
-    Tasks,
+  Signin,
+  Signup,
+  Home,
+  Contact,
+  About,
+  FAQs,
+  CreateEvent,
+  UserProfile,
+  Event,
+  Events,
+  Colleges,
+  College,
+  Layout,
+  UserMessages,
+  UserEvents,
+  User,
+  Scheduler,
+  Error,
+  Tasks,
 };

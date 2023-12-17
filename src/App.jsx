@@ -7,6 +7,7 @@ import {
   Home,
   Contact,
   About,
+  FAQs,
   Signin,
   Signup,
   CreateEvent,
@@ -55,6 +56,7 @@ function App() {
 
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/faqs" element={<FAQs />} />
 
         {isLoggedIn && (
           <>

@@ -51,19 +51,21 @@ const Footer = () => {
         </button>
       </div> */}
       <div className="footer__menu">
-        <Link>
+         <Link to={"/"} className="menu">
           <p>Home</p>
         </Link>
-        <Link>
+        <Link to={"/about"} className="menu">
           <p>About</p>
         </Link>
-        <Link>
+        <Link to={"/contact"} className="menu">
           <p>Contact Us</p>
         </Link>
-        <Link>
+        <Link to={"/faqs"} className="menu">
           <p>FAQs</p>
         </Link>
       </div>
+
+
       <hr className="footer__line" />
       <div className="footer__bottom">
         {/* <div className="footer__bottom__language">
