@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 const ProfileSection = () => {
   const [userData, setUserData] = useState({
-    username: 'KUCC',
+    username: 'Kathmandu University Computer Club',
     email: 'kucc@ku.edu.np',
-    department: 'Department of Computer Engineering',
-    profilePicture: 'sam.JPG',
+    department:'Department of Computer Engineering',
+    profilePicture: '',
     eventsCreated: [
       { id: 1, name: 'Event 1', date: '2023-01-01', location: 'Venue 1' },
       { id: 2, name: 'Event 2', date: '2023-01-01', location: 'Venue 2' },
@@ -17,24 +16,7 @@ const ProfileSection = () => {
     ],
   });
 
-  useEffect(() => {
-     // Fetch user data and trigger email on component mount
-    // Simulate fetching user data from an API
-    // Replace this with actual logic to fetch user data
-    async function fetchUserData() {
-      try {
-        // Simulate fetching user data from an API
-        const userDataResponse = await axios.get(`${import.meta.env.VITE_BACKEND_HOST}/user-data`);
-        setUserData(userDataResponse.data);
-      } catch (error) {
-        console.error('Error fetching user data:', error);
-        // Handle errors or update the UI accordingly
-        alert('Error fetching user data. Please try again.');
-      }
-    }
-
-    fetchUserData();
-  }, []);
+  
 
   const containerStyle = {
     border: '1px solid #ddd',
@@ -49,7 +31,7 @@ const ProfileSection = () => {
   };
 
   const profilePictureStyle = {
-    borderRadius: '70%',
+    borderRadius: '50%',
     marginRight: '50px',
   };
 
@@ -87,7 +69,6 @@ const ProfileSection = () => {
     color: 'white',
     border: 'none',
     borderRadius: '5px',
-    marginRight: '800px',
   };
 
   const handleChangePassword = () => {
@@ -100,30 +81,15 @@ const ProfileSection = () => {
     alert('Updating profile...');
   };
 
-  const handleSendEmail = async () => {
-    try {
-      // Trigger the backend to send an email
-      const emailResponse = await axios.post(`${import.meta.env.VITE_BACKEND_HOST}/send-email`, {
-        // Include any other necessary data
-        // For example, you might want to include user-specific data like userData.email
-        userEmail: userData.email,
-      });
-
-      console.log(emailResponse.data);
-
-      // Handle the response or update the UI as needed
-      alert('Email sent successfully!');
-    } catch (error) {
-      console.error('Error sending email:', error);
-      // Handle errors or update the UI accordingly
-      alert('Error sending email. Please try again.');
-    }
+  const handlePrivacySettings = () => {
+    // Implement logic for privacy settings
+    alert('Privacy settings...');
   };
 
   return (
     <div style={containerStyle}>
       <div style={userInfoStyle}>
-        <img src={"https://www.kindpng.com/picc/m/252-2524695_dummy-profile-image-jpg-hd-png-download.png"} alt="Profile" style={{ ...profilePictureStyle, marginLeft: 0 }} />
+        <img src={userData.profilePicture} alt="Profile" style={{ ...profilePictureStyle, marginLeft: 0 }} />
         <div style={{ ...nameAndEmailStyle, marginLeft: 20 }}>
           <h2>{userData.username}</h2>
           <p>{userData.email}</p>
@@ -151,14 +117,8 @@ const ProfileSection = () => {
         </div>
       </div>
 
-      <div style={actionSectionStyle}>
-        <button style={actionButtonStyle} onClick={handleUpdateProfile}>
-          Update Profile
-        </button>
-        <button style={actionButtonStyle} onClick={handleSendEmail}>
-          Send Email
-        </button>
-      </div>
+      
+      
     </div>
   );
 };
