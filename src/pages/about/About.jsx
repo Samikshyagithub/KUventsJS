@@ -129,21 +129,21 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={images.twitter} alt="event-hive" />
+              <img src={images.twitter} alt="kuvents" />
             </a>
             <a
               href="https://medium.com/@su58071320"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={images.medium} alt="event-hive" />
+              <img src={images.medium} alt="kuvents" />
             </a>
             <a
               href="https://github.com/Samikshyagithub"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={images.github} alt="event-hive" />
+              <img src={images.github} alt="kuvents" />
             </a>
             </div>
         </div>
@@ -176,7 +176,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={images.github} alt="event-hive" />
+              <img src={images.github} alt="kuvents" />
             </a>
             </div>
         </div>
@@ -211,36 +211,17 @@ const About = () => {
           </p>
           <div className="about__creator__info__links">
             <a
-              href="https://www.linkedin.com/in/felix.hud/"
+              href="https://www.linkedin.com/in/shreela-sapkota-8a28b6213/?fbclid=IwAR0Luz2PsSDas1TV1pP3UwTnC-yf5LcXqnX23sqJw2dmmt-P-C-O3DureZU"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={images.linkedin} alt="event-hive" />
+              <img src={images.linkedin} alt="kuvents" />
             </a>
+            
+            
+            
             <a
-              href="https://twitter.com/felix.hud"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={images.twitter} alt="event-hive" />
-            </a>
-        
-            <a
-              href="https://www.figma.com/@prashantkumarr"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={images.figma} alt="event-hive" />
-            </a>
-            <a
-              href="https://medium.com/@officialprashanttt"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={images.medium} alt="event-hive" />
-            </a>
-            <a
-              href="https://github.com/felixop7"
+              href="https://github.com/shreelasapkota?fbclid=IwAR1VoeQMMRJoQ5ZfXpiU6wVNEFg_h2VE-wXH4Ri-ib5_5WYMwFAfPgxKu_I"
               target="_blank"
               rel="noopener noreferrer"
             >

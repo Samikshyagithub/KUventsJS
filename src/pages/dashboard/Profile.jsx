@@ -123,7 +123,7 @@ const ProfileSection = () => {
   return (
     <div style={containerStyle}>
       <div style={userInfoStyle}>
-        <img src={userData.profilePicture} alt="Profile" style={{ ...profilePictureStyle, marginLeft: 0 }} />
+        <img src={"https://www.kindpng.com/picc/m/252-2524695_dummy-profile-image-jpg-hd-png-download.png"} alt="Profile" style={{ ...profilePictureStyle, marginLeft: 0 }} />
         <div style={{ ...nameAndEmailStyle, marginLeft: 20 }}>
           <h2>{userData.username}</h2>
           <p>{userData.email}</p>
