@@ -18,13 +18,22 @@ const ProfileSection = () => {
   });
 
   useEffect(() => {
+     // Fetch user data and trigger email on component mount
     // Simulate fetching user data from an API
     // Replace this with actual logic to fetch user data
-    // You can fetch user data from your backend here
-    // For example:
-    // axios.get('YOUR_BACKEND_ENDPOINT_FOR_USER_DATA')
-    //   .then(response => setUserData(response.data))
-    //   .catch(error => console.error('Error fetching user data:', error));
+    async function fetchUserData() {
+      try {
+        // Simulate fetching user data from an API
+        const userDataResponse = await axios.get(`${import.meta.env.VITE_BACKEND_HOST}/user-data`);
+        setUserData(userDataResponse.data);
+      } catch (error) {
+        console.error('Error fetching user data:', error);
+        // Handle errors or update the UI accordingly
+        alert('Error fetching user data. Please try again.');
+      }
+    }
+
+    fetchUserData();
   }, []);
 
   const containerStyle = {
@@ -93,10 +102,14 @@ const ProfileSection = () => {
 
   const handleSendEmail = async () => {
     try {
-      const response = await axios.post(`${import.meta.env.VITE_BACKEND_HOST}/send-email`, {
+      // Trigger the backend to send an email
+      const emailResponse = await axios.post(`${import.meta.env.VITE_BACKEND_HOST}/send-email`, {
+        // Include any other necessary data
+        // For example, you might want to include user-specific data like userData.email
+        userEmail: userData.email,
       });
 
-      console.log(response.data);
+      console.log(emailResponse.data);
 
       // Handle the response or update the UI as needed
       alert('Email sent successfully!');
