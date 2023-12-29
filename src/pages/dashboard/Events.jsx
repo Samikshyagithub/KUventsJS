@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { images } from "../../constants";
 import { EventContainer } from "../../container";
 
+
 const UserEvents = () => {
   return (
     <div
@@ -84,7 +85,9 @@ const UserEvents = () => {
         />
       </div>
     </div>
+    
   );
+  <Event />
 };
 
 export default UserEvents;
