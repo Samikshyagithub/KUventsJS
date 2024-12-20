@@ -7,7 +7,7 @@ KUvents is a dynamic web application tailored to revolutionize event management 
 ## Purpose
 The project's purpose is to provide club administrators with an efficient platform for event creation, promotion, and seamless user interaction. By integrating dedicated administrators and super administrators, the platform ensures event integrity and managerial oversight. The expected outcome is a user-centric event management system that enhances event coordination, fosters participation, and enriches the overall campus experience.
 
-![Picture](./public/picture)
+![Picture](./public/picture.png)
 
 ## Objectives
 - **Centralized Platform**: To create a centralized platform to showcase and promote events from all university departments and clubs, facilitating smooth information sharing and ensuring that a wider audience becomes aware of these activities.
@@ -44,10 +44,10 @@ The features of KUvents are discussed below:
 - **Event Approval**: SuperAdmin has the ultimate say on event approval.
 - **User Creation**: SuperAdmin has the responsibility of creating associated users of a club.
 
-![Picture](./public/mas)
+![Picture](./public/mas.png)
 
 ## Conclusion
 KUvents aspires to redefine event management and participation at Kathmandu University, aligning seamlessly with university needs and fostering a culture of collaboration. It is recommended that this platform becomes an integral part of the university's event coordination endeavors.
 
-![Picture](./public/picture3)
+![Picture](./public/picture3.png)
 
