@@ -2,6 +2,8 @@
 
 KUvents is a dynamic web application tailored to revolutionize event management at Kathmandu University. Leveraging NodeJS and React, along with SCSS and JavaScript, KUvents aims to streamline event coordination and engagement.
 
+![Picture](public/picture4)
+
 ## Purpose
 The project's purpose is to provide club administrators with an efficient platform for event creation, promotion, and seamless user interaction. By integrating dedicated administrators and super administrators, the platform ensures event integrity and managerial oversight. The expected outcome is a user-centric event management system that enhances event coordination, fosters participation, and enriches the overall campus experience.
 
